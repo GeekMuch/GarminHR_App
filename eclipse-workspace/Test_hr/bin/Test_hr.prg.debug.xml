@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+<pcToLineNum>
+<entry filename="/home/void/eclipse-workspace/Test_hr/./source/Test_hrView.mc" lineNum="12" pc="268435456" symbol="initialize"/>
+<entry filename="/home/void/eclipse-workspace/Test_hr/./source/Test_hrView.mc" lineNum="13" pc="268435460" symbol="initialize"/>
+<entry filename="/home/void/eclipse-workspace/Test_hr/./source/Test_hrView.mc" lineNum="17" pc="268435479" symbol="onShow"/>
+<entry filename="/home/void/eclipse-workspace/Test_hr/./source/Test_hrView.mc" lineNum="19" pc="268435483" symbol="onShow"/>
+<entry filename="/home/void/eclipse-workspace/Test_hr/./source/Test_hrView.mc" lineNum="30" pc="268435645" symbol="onShow"/>
+<entry filename="/home/void/eclipse-workspace/Test_hr/./source/Test_hrView.mc" lineNum="36" pc="268435726" symbol="onShow"/>
+<entry filename="/home/void/eclipse-workspace/Test_hr/./source/Test_hrView.mc" lineNum="46" pc="268435888" symbol="onShow"/>
+<entry filename="/home/void/eclipse-workspace/Test_hr/./source/Test_hrView.mc" lineNum="56" pc="268435970" symbol="onUpdate"/>
+<entry filename="/home/void/eclipse-workspace/Test_hr/./source/Test_hrView.mc" lineNum="57" pc="268435974" symbol="onUpdate"/>
+<entry filename="/home/void/eclipse-workspace/Test_hr/./source/Test_hrView.mc" lineNum="58" pc="268435994" symbol="onUpdate"/>
+<entry filename="/home/void/eclipse-workspace/Test_hr/./source/Test_hrView.mc" lineNum="59" pc="268436014" symbol="onUpdate"/>
+<entry filename="/home/void/eclipse-workspace/Test_hr/./source/Test_hrView.mc" lineNum="60" pc="268436034" symbol="onUpdate"/>
+<entry filename="/home/void/eclipse-workspace/Test_hr/./source/Test_hrApp.mc" lineNum="5" pc="268436055" symbol="initialize"/>
+<entry filename="/home/void/eclipse-workspace/Test_hr/./source/Test_hrApp.mc" lineNum="6" pc="268436059" symbol="initialize"/>
+<entry filename="/home/void/eclipse-workspace/Test_hr/./source/Test_hrApp.mc" lineNum="10" pc="268436078" symbol="onStart"/>
+<entry filename="/home/void/eclipse-workspace/Test_hr/./source/Test_hrApp.mc" lineNum="14" pc="268436083" symbol="onStop"/>
+<entry filename="/home/void/eclipse-workspace/Test_hr/./source/Test_hrApp.mc" lineNum="17" pc="268436088" symbol="onShow"/>
+<entry filename="/home/void/eclipse-workspace/Test_hr/./source/Test_hrApp.mc" lineNum="20" pc="268436093" symbol="onMenu"/>
+<entry filename="/home/void/eclipse-workspace/Test_hr/./source/Test_hrApp.mc" lineNum="24" pc="268436098" symbol="getInitialView"/>
+<entry filename="/home/void/eclipse-workspace/Test_hr/./source/Test_hrApp.mc" lineNum="25" pc="268436102" symbol="getInitialView"/>
+</pcToLineNum>
+<symbolTable>
+<entry field="true" id="14" symbol="BTC_png"/>
+<entry id="8389124" method="true" symbol="onUpdate"/>
+<entry id="8389349" symbol="justification"/>
+<entry field="true" id="8388611" module="true" symbol="Toybox"/>
+<entry id="9" object="true" symbol="Test_hrView"/>
+<entry id="8388770" module="true" object="true" symbol="Strings"/>
+<entry id="8389280" method="true" symbol="getInitialView"/>
+<entry id="8388639" module="true" symbol="Graphics"/>
+<entry id="8388769" module="true" object="true" symbol="Rez"/>
+<entry id="8389123" method="true" symbol="onShow"/>
+<entry id="8388702" method="true" symbol="initialize"/>
+<entry id="10" object="true" symbol="Test_hrApp"/>
+<entry field="true" id="16" symbol="AppName"/>
+<entry id="8389080" method="true" symbol="onMenu"/>
+<entry field="true" id="15" symbol="LauncherIcon"/>
+<entry id="8388648" module="true" symbol="WatchUi"/>
+<entry id="8389281" method="true" symbol="onStop"/>
+<entry field="true" id="8389065" symbol="locY"/>
+<entry field="true" id="8389064" symbol="locX"/>
+<entry id="8388771" module="true" object="true" symbol="Drawables"/>
+<entry id="8389279" method="true" symbol="onStart"/>
+<entry id="8389348" symbol="font"/>
+<entry id="8389743" symbol="backgroundColor"/>
+<entry id="8389347" symbol="color"/>
+<entry field="true" id="17" symbol="BTC_name"/>
+<entry field="true" id="13" symbol="ETH_png"/>
+<entry field="true" id="18" symbol="ETH_name"/>
+<entry id="12" module="true" symbol="Layouts"/>
+<entry id="8389345" symbol="rezId"/>
+<entry id="8390088" module="true" object="true" symbol="JsonData"/>
+<entry id="8389346" symbol="text"/>
+<entry id="11" module="true" symbol="Menus"/>
+<entry id="8388772" module="true" object="true" symbol="Fonts"/>
+</symbolTable>
+<localVars>
+<entry endPc="268436055" name="dc" stackId="1" startPc="268435970"/>
+<entry endPc="268436083" name="state" stackId="1" startPc="268436078"/>
+<entry endPc="268436088" name="state" stackId="1" startPc="268436083"/>
+</localVars>
+<annotations/>
+<functions>
+<functionEntry accessMode="public" name="initialize" parent="Test_hrView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onShow" parent="Test_hrView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onUpdate" parent="Test_hrView">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="Test_hrApp">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onStart" parent="Test_hrApp">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onStop" parent="Test_hrApp">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onShow" parent="Test_hrApp">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onMenu" parent="Test_hrApp">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="getInitialView" parent="Test_hrApp">
+<documentation/>
+</functionEntry>
+</functions>
+<dataEntryOffsetMappings>
+<dataEntry offset="87" parentId="" symbolId="globals" type="module"/>
+<dataEntry offset="166" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry offset="245" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry offset="300" parentId="Rez" symbolId="Menus" type="module"/>
+<dataEntry offset="331" parentId="Rez" symbolId="Fonts" type="module"/>
+<dataEntry offset="362" parentId="Rez" symbolId="JsonData" type="module"/>
+<dataEntry offset="393" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry offset="424" parentId="Rez" symbolId="Strings" type="module"/>
+<dataEntry offset="463" parentId="globals" symbolId="Test_hrApp" type="class"/>
+<dataEntry offset="550" parentId="globals" symbolId="Test_hrView" type="class"/>
+</dataEntryOffsetMappings>
+</debugInfo>
