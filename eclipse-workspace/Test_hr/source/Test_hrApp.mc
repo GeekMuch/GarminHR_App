@@ -28,14 +28,18 @@ class Test_hrApp extends App.AppBase {
 
     // Return the initial view of your application here
     function getInitialView() {
-        return [ new Test_hrView("Starting " + URL) ];
+        return [ new Test_hrView("[+] Starting => " + URL) ];
         //return [ new Test_hrView() ];
     }
        // set up the response callback function
 
    	function onReceive(responseCode, data) {
-      	WatchUi.switchToView(new Test_hrView("onReceive: " + URL + "\n" + responseCode + " " + data), null, WatchUi.SLIDE_IMMEDIATE);
-   		System.println("\n"+data.keys("result:"[1]));
+      	WatchUi.switchToView(new Test_hrView("[+] onReceive: " + URL + "\n[+]" + responseCode + " " + data), null, WatchUi.SLIDE_IMMEDIATE);
+   		printData(data);
+   	}
+   	
+   	function printData(data){
+   		System.println("\n[+] " + data["result"]);
    	}
 
    	function makeRequest() {
