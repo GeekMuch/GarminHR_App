@@ -25,20 +25,19 @@
 <entry filename="C:\\Users\\ph0n1x\\git\\GarminHR_App\\eclipse-workspace\\Test_hr\\.\\source\\Test_hrApp.mc" lineNum="31" pc="268436161" symbol="getInitialView"/>
 <entry filename="C:\\Users\\ph0n1x\\git\\GarminHR_App\\eclipse-workspace\\Test_hr\\.\\source\\Test_hrApp.mc" lineNum="36" pc="268436213" symbol="onReceive"/>
 <entry filename="C:\\Users\\ph0n1x\\git\\GarminHR_App\\eclipse-workspace\\Test_hr\\.\\source\\Test_hrApp.mc" lineNum="37" pc="268436217" symbol="onReceive"/>
-<entry filename="C:\\Users\\ph0n1x\\git\\GarminHR_App\\eclipse-workspace\\Test_hr\\.\\source\\Test_hrApp.mc" lineNum="38" pc="268436238" symbol="onReceive"/>
-<entry filename="C:\\Users\\ph0n1x\\git\\GarminHR_App\\eclipse-workspace\\Test_hr\\.\\source\\Test_hrApp.mc" lineNum="39" pc="268436256" symbol="onReceive"/>
-<entry filename="C:\\Users\\ph0n1x\\git\\GarminHR_App\\eclipse-workspace\\Test_hr\\.\\source\\Test_hrApp.mc" lineNum="42" pc="268436344" symbol="makeRequest"/>
-<entry filename="C:\\Users\\ph0n1x\\git\\GarminHR_App\\eclipse-workspace\\Test_hr\\.\\source\\Test_hrApp.mc" lineNum="43" pc="268436348" symbol="makeRequest"/>
-<entry filename="C:\\Users\\ph0n1x\\git\\GarminHR_App\\eclipse-workspace\\Test_hr\\.\\source\\Test_hrApp.mc" lineNum="44" pc="268436358" symbol="makeRequest"/>
-<entry filename="C:\\Users\\ph0n1x\\git\\GarminHR_App\\eclipse-workspace\\Test_hr\\.\\source\\Test_hrApp.mc" lineNum="45" pc="268436361" symbol="makeRequest"/>
-<entry filename="C:\\Users\\ph0n1x\\git\\GarminHR_App\\eclipse-workspace\\Test_hr\\.\\source\\Test_hrApp.mc" lineNum="50" pc="268436409" symbol="makeRequest"/>
-<entry filename="C:\\Users\\ph0n1x\\git\\GarminHR_App\\eclipse-workspace\\Test_hr\\.\\source\\Test_hrApp.mc" lineNum="52" pc="268436427" symbol="makeRequest"/>
-<entry filename="Rez" lineNum="20" pc="268436452" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="24" pc="268436464" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="25" pc="268436607" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="26" pc="268436632" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="27" pc="268436684" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="30" pc="268436730" symbol="MainLayout"/>
+<entry filename="C:\\Users\\ph0n1x\\git\\GarminHR_App\\eclipse-workspace\\Test_hr\\.\\source\\Test_hrApp.mc" lineNum="38" pc="268436304" symbol="onReceive"/>
+<entry filename="C:\\Users\\ph0n1x\\git\\GarminHR_App\\eclipse-workspace\\Test_hr\\.\\source\\Test_hrApp.mc" lineNum="41" pc="268436349" symbol="makeRequest"/>
+<entry filename="C:\\Users\\ph0n1x\\git\\GarminHR_App\\eclipse-workspace\\Test_hr\\.\\source\\Test_hrApp.mc" lineNum="42" pc="268436353" symbol="makeRequest"/>
+<entry filename="C:\\Users\\ph0n1x\\git\\GarminHR_App\\eclipse-workspace\\Test_hr\\.\\source\\Test_hrApp.mc" lineNum="43" pc="268436363" symbol="makeRequest"/>
+<entry filename="C:\\Users\\ph0n1x\\git\\GarminHR_App\\eclipse-workspace\\Test_hr\\.\\source\\Test_hrApp.mc" lineNum="44" pc="268436366" symbol="makeRequest"/>
+<entry filename="C:\\Users\\ph0n1x\\git\\GarminHR_App\\eclipse-workspace\\Test_hr\\.\\source\\Test_hrApp.mc" lineNum="49" pc="268436414" symbol="makeRequest"/>
+<entry filename="C:\\Users\\ph0n1x\\git\\GarminHR_App\\eclipse-workspace\\Test_hr\\.\\source\\Test_hrApp.mc" lineNum="51" pc="268436432" symbol="makeRequest"/>
+<entry filename="Rez" lineNum="20" pc="268436457" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="24" pc="268436469" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="25" pc="268436612" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="26" pc="268436637" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="27" pc="268436689" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="30" pc="268436735" symbol="MainLayout"/>
 </pcToLineNum>
 <symbolTable>
 <entry id="8388644" module="true" symbol="System"/>
@@ -92,15 +91,15 @@
 <entry endPc="268435616" name="dc" stackId="1" startPc="268435591"/>
 <entry endPc="268436147" name="state" stackId="1" startPc="268436130"/>
 <entry endPc="268436152" name="state" stackId="1" startPc="268436147"/>
-<entry endPc="268436344" name="responseCode" stackId="1" startPc="268436213"/>
-<entry endPc="268436344" name="data" stackId="2" startPc="268436213"/>
-<entry endPc="268436451" name="options" stackId="3" startPc="268436348"/>
-<entry endPc="268436451" name="url" stackId="1" startPc="268436348"/>
-<entry endPc="268436451" name="responseCallback" stackId="4" startPc="268436348"/>
-<entry endPc="268436451" name="params" stackId="2" startPc="268436348"/>
-<entry endPc="268436747" name="rez_cmp_local_bitmap_message_fontHeight" stackId="3" startPc="268436464"/>
-<entry endPc="268436747" name="rez_cmp_local_bitmap_message" stackId="2" startPc="268436464"/>
-<entry endPc="268436748" name="dc" stackId="1" startPc="268436452"/>
+<entry endPc="268436349" name="responseCode" stackId="1" startPc="268436213"/>
+<entry endPc="268436349" name="data" stackId="2" startPc="268436213"/>
+<entry endPc="268436456" name="options" stackId="3" startPc="268436353"/>
+<entry endPc="268436456" name="url" stackId="1" startPc="268436353"/>
+<entry endPc="268436456" name="responseCallback" stackId="4" startPc="268436353"/>
+<entry endPc="268436456" name="params" stackId="2" startPc="268436353"/>
+<entry endPc="268436752" name="rez_cmp_local_bitmap_message_fontHeight" stackId="3" startPc="268436469"/>
+<entry endPc="268436752" name="rez_cmp_local_bitmap_message" stackId="2" startPc="268436469"/>
+<entry endPc="268436753" name="dc" stackId="1" startPc="268436457"/>
 </localVars>
 <annotations/>
 <functions>

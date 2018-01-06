@@ -34,9 +34,8 @@ class Test_hrApp extends App.AppBase {
        // set up the response callback function
 
    	function onReceive(responseCode, data) {
-   		System.println("[****]");
-   		System.println(data);
       	WatchUi.switchToView(new Test_hrView("onReceive: " + URL + "\n" + responseCode + " " + data), null, WatchUi.SLIDE_IMMEDIATE);
+   		System.println("\n"+data.keys("result:"[1]));
    	}
 
    	function makeRequest() {
@@ -44,7 +43,7 @@ class Test_hrApp extends App.AppBase {
        var params = null;
        var options = {
          :method => Communications.HTTP_REQUEST_METHOD_GET,
-         //:headers => { "Content-Type" => Communications.REQUEST_CONTENT_TYPE_URL_ENCODED},
+         
          :responseType => Communications.HTTP_RESPONSE_CONTENT_TYPE_JSON
        };
        var responseCallback = method(:onReceive);
@@ -53,5 +52,5 @@ class Test_hrApp extends App.AppBase {
   }
 
 
-
+	
 }
