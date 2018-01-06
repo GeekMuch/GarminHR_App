@@ -8,11 +8,30 @@ class Test_hrView extends WatchUi.View {
 	var BTC_png;
 	var ETH_png;
 	
+    hidden var _message;
 
-    function initialize() {
+    function initialize(message) {
+        View.initialize();
+        _message = message;        
+        System.println(message);
+    }
+        // Load your resources here
+    function onLayout(dc) {
+        setLayout(Rez.Layouts.MainLayout(dc));
+        View.findDrawableById("message").setText(_message);
+    }
+    
+        // Update the view
+    function onUpdate(dc) {
+        // Call the parent onUpdate function to redraw the layout
+        View.onUpdate(dc);
+    }
+
+    /*
+    function initialize() {	
         View.initialize();
         //View.setBackgroundColor(Graphics.COLOR_BLACK);
-	}
+	}*/
 	
     function onShow() {
     	
@@ -53,13 +72,13 @@ class Test_hrView extends WatchUi.View {
         
     }
 
-    function onUpdate(dc) {
-        BTC_name.draw(dc);
-        ETH_name.draw(dc);
-        ETH_png.draw(dc);
-        BTC_png.draw(dc);
+  /*  function onUpdate(dc) {
+        //BTC_name.draw(dc);
+        //ETH_name.draw(dc);
+        //ETH_png.draw(dc);
+        //BTC_png.draw(dc);
     } 
-   
+   */
 
 
 }
