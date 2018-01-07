@@ -1,14 +1,16 @@
 using Toybox.Graphics;
 using Toybox.WatchUi;
+using Toybox.Math;
 
 class Test_hrView extends WatchUi.View {
 
 	var BTC_name = "BTC = $";
-	var ETH_name = "ETH = $";
+	var ETH_name = "ETH = ";
 	var BTC_png;
 	var ETH_png;
+	var ETH_value;
 	
-    hidden var _message;
+    var _message;
 
     function initialize(message) {
         View.initialize();
@@ -16,15 +18,20 @@ class Test_hrView extends WatchUi.View {
         System.println(message);
     }
         // Load your resources here
-    function onLayout(dc) {
+   /* function onLayout(dc) {
         setLayout(Rez.Layouts.MainLayout(dc));
-        View.findDrawableById("message").setText(_message);
-    }
+        View.findDrawableById("message").setText(_message);        
+    }*/
     
         // Update the view
     function onUpdate(dc) {
         // Call the parent onUpdate function to redraw the layout
-        View.onUpdate(dc);
+        BTC_name.draw(dc);
+        ETH_name.draw(dc);
+        ETH_png.draw(dc);
+        BTC_png.draw(dc);
+        ETH_value.draw(dc);
+        //View.onUpdate(dc);
     }
 
     /*
@@ -34,6 +41,8 @@ class Test_hrView extends WatchUi.View {
 	}*/
 	
     function onShow() {
+    	
+    	
     	
 		BTC_name = new WatchUi.Text({
 		    :text=>BTC_name,
@@ -68,17 +77,15 @@ class Test_hrView extends WatchUi.View {
             
         });
         
-
+        ETH_value = new WatchUi.Text({
+        	:text=>eth_balance,
+        	:color=>Graphics.COLOR_BLACK,
+        	:font=>Graphics.FONT_SMALL,
+        	:locX=>72,
+		    :locY=>37
+        });
         
     }
-
-  /*  function onUpdate(dc) {
-        //BTC_name.draw(dc);
-        //ETH_name.draw(dc);
-        //ETH_png.draw(dc);
-        //BTC_png.draw(dc);
-    } 
-   */
 
 
 }
