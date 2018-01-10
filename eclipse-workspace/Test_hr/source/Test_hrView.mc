@@ -4,18 +4,21 @@ using Toybox.Math;
 
 class Test_hrView extends WatchUi.View {
 
-	var BTC_name = "BTC = $";
+	var BTC_name = "BTC = ";
 	var ETH_name = "ETH = ";
 	var BTC_png;
 	var ETH_png;
+	var BTC_value;
 	var ETH_value;
-	
+
     var _message;
 
     function initialize(message) {
         View.initialize();
         _message = message;        
         System.println(message);
+       
+        
     }
         // Load your resources here
    /* function onLayout(dc) {
@@ -26,11 +29,14 @@ class Test_hrView extends WatchUi.View {
         // Update the view
     function onUpdate(dc) {
         // Call the parent onUpdate function to redraw the layout
+
         BTC_name.draw(dc);
         ETH_name.draw(dc);
         ETH_png.draw(dc);
         BTC_png.draw(dc);
+		BTC_value.draw(dc);
         ETH_value.draw(dc);
+
         //View.onUpdate(dc);
     }
 
@@ -41,9 +47,7 @@ class Test_hrView extends WatchUi.View {
 	}*/
 	
     function onShow() {
-    	
-    	
-    	
+    
 		BTC_name = new WatchUi.Text({
 		    :text=>BTC_name,
 		    :color=>Graphics.COLOR_BLACK,
@@ -59,6 +63,14 @@ class Test_hrView extends WatchUi.View {
             :rezId=>Rez.Drawables.BTC_png,
             :locY=>5
             
+        });
+        
+        BTC_value = new WatchUi.Text({
+        	:text=>eth_balance,
+        	:color=>Graphics.COLOR_BLACK,
+        	:font=>Graphics.FONT_SMALL,
+        	:locX=>72,
+		    :locY=>5
         });
 		
 		ETH_name = new WatchUi.Text({
@@ -84,6 +96,7 @@ class Test_hrView extends WatchUi.View {
         	:locX=>72,
 		    :locY=>37
         });
+        
         
     }
 

@@ -2,74 +2,112 @@ using Toybox.Application as App;
 using Toybox.System;
 using Toybox.Communications;
 using Toybox.Math;
+using Toybox.Timer;
 
-const URL = "https://api.etherscan.io/api?module=account&action=balancemulti&address=0xAB8d28F89Fd9500540F841474c5000eb8eCBE80F&tag=latest&apikey=5EHZ8GQET5EPKA66EZQ6ANTIYH9SU14SUW/";
 
+	// Get coin balace through etherscan API
+//const URL_ETH = "https://api.etherscan.io/api?module=account&action=balancemulti&address=0xAB8d28F89Fd9500540F841474c5000eb8eCBE80F&tag=latest&apikey=5EHZ8GQET5EPKA66EZQ6ANTIYH9SU14SUW/";
+
+var  urlArray = ["https://api.coinmarketcap.com/v1/ticker/bitcoin/","https://api.coinmarketcap.com/v1/ticker/ethereum/"];
+
+var balance = [];
 var eth_balance;
 var num;
 var num2;
+var recv = 1;
 
+class RecvInformation  {
+
+	function TestEnd(){
+		//whileUrlSizeMakeRequest();
+
+			System.println("B: ---->" + balance);
+		
+	}
+	
+}
+
+ //Main SuperClass
+ 
 class Test_hrApp extends App.AppBase {
 
-    function initialize() {
+   function initialize() {
         AppBase.initialize();
-    }
+        
+   }
 
     // onStart() is called on application start up
-    function onStart(state) {
-    	makeRequest();
-    }
+   function onStart(state) {
+   		whileUrlSizeMakeRequest();
+    	
+    	
+   }
 
     // onStop() is called when your application is exiting
-    function onStop(state) {
-    }
+   function onStop(state) {
+   }
 
     /*function onShow() {
     }*/
 
-    function onMenu() {
-    }
+   function onMenu() {
+   }
 
 
     // Return the initial view of your application here
     function getInitialView() {
-        return [ new Test_hrView("[+] Starting => " + URL) ];
-        //return [ new Test_hrView() ];
+        return [ new Test_hrView("\n[+] Start Initial Veiw") ];
+
     }
-       // set up the response callback function
-
-   	function onReceive(responseCode, data) {
-      	//WatchUi.switchToView(new Test_hrView("[+] onReceive: " + URL + "\n[+]" + responseCode + " " + data), null, WatchUi.SLIDE_IMMEDIATE);
-      	WatchUi.switchToView(new Test_hrView(data.get("result")[0].get("balance")), null, WatchUi.SLIDE_IMMEDIATE);
-		procesDataFromJson(data);
-   		printData(data);
+       
+    // set up the response callback function
+	function onReceive(responseCode, data) {
+      	WatchUi.switchToView(new Test_hrView("[+] ReceiveNo: " + recv + " " + urlArray  + "\n    Recv. code: " + responseCode + " data received \n" ), null, WatchUi.SLIDE_IMMEDIATE);
+      	balance.add(data[0].get("price_usd") + "$" );
+		System.println("[+] Balance => " + balance + "\n");
+		recv += 1;
+		checkB();
+		//printData(data);
+   		
    	}
+  
+  	function checkB(){
+  		if(recv == 3){
+  		    
+  			System.println("Balance" + balance + "\n");
+  			printB();
+  		}
+  	}
+  	
+  	function printB(){
+  		System.println("Balance BTC " + balance[0]);
+  		System.println("Balance ETH " + balance[1]);
+  	}
+  	 	
+	function printData(data){
+   		//System.println("[+] Price => " + balance + "\n");
+   		//System.println("data: " + data);
+   		//num = data.get("result")[0].get("balance"); 		
+   		//System.println("\n[+] Eth Balance => " + eth_balance);
+	}
    	
-   	function procesDataFromJson(data){
-   		num = data.get("result")[0].get("balance"); 
-   		num2 = (num.toFloat() / Math.pow(10, 18)).toString() ;
-   		eth_balance = num2 ;
    	
-   	}
-   	
-   	function printData(data){
-   		System.println("\n[+] Balance in Eth => " + data.get("result")[0].get("balance") + "\n[+] From wallet => " + data.get("result")[0].get("account"));
-   		num = data.get("result")[0].get("balance"); 		
-   		System.println("\n[+] Eth Balance => " + eth_balance);
-   	}
-
-   	function makeRequest() {
-       var url = URL;
-       var params = null;
-       var options = {
-         :method => Communications.HTTP_REQUEST_METHOD_GET,
-         
-         :responseType => Communications.HTTP_RESPONSE_CONTENT_TYPE_JSON
-       };
-       var responseCallback = method(:onReceive);
-
-       Communications.makeWebRequest(url, params, options, responseCallback);
-  }
+	function whileUrlSizeMakeRequest() {
+		for( var i = 0; i < urlArray.size(); i++ ){
+			var url = urlArray[i];
+			var params = null;
+			var options = {
+				:method => Communications.HTTP_REQUEST_METHOD_GET,
+				:headers => { "Content-Type" => Communications.REQUEST_CONTENT_TYPE_JSON}, 
+				:responseType => Communications.HTTP_RESPONSE_CONTENT_TYPE_JSON
+				};
+			var responseCallback = method(:onReceive);
+			
+			
+			Communications.makeWebRequest(url, params, options, responseCallback);
+  		}
+  		
+	}	  
 
 
 	
