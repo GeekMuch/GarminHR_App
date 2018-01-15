@@ -4,12 +4,12 @@ using Toybox.Math;
 
 class Test_hrView extends WatchUi.View {
 
-	var BTC_name = "BTC = ";
-	var ETH_name = "ETH = ";
-	var BTC_png;
-	var ETH_png;
-	var BTC_value;
-	var ETH_value;
+    var BTC_name = "BTC = ";
+    var ETH_name = "ETH = ";
+    var BTC_png;
+    var ETH_png;
+    var BTC_value;
+    var ETH_value;
 
     var _message;
 
@@ -34,67 +34,67 @@ class Test_hrView extends WatchUi.View {
         ETH_name.draw(dc);
         ETH_png.draw(dc);
         BTC_png.draw(dc);
-		BTC_value.draw(dc);
+        BTC_value.draw(dc);
         ETH_value.draw(dc);
 
         //View.onUpdate(dc);
     }
 
     /*
-    function initialize() {	
+    function initialize() { 
         View.initialize();
         //View.setBackgroundColor(Graphics.COLOR_BLACK);
-	}*/
-	
+    }*/
+    
     function onShow() {
     
-		BTC_name = new WatchUi.Text({
-		    :text=>BTC_name,
-		    :color=>Graphics.COLOR_BLACK,
-		    :backgroundColor=>Graphics.COLOR_WHITE,
-		    :font=>Graphics.FONT_SMALL,
-		    :justification=>Graphics.TEXT_JUSTIFY_LEFT,
-		    :locX=>30,
-		    :locY=>5
-		    
-		});
-		
-		BTC_png = new WatchUi.Bitmap({
+        BTC_name = new WatchUi.Text({
+            :text=>BTC_name,
+            :color=>Graphics.COLOR_BLACK,
+            :backgroundColor=>Graphics.COLOR_WHITE,
+            :font=>Graphics.FONT_SMALL,
+            :justification=>Graphics.TEXT_JUSTIFY_LEFT,
+            :locX=>30,
+            :locY=>5
+            
+        });
+        
+        BTC_png = new WatchUi.Bitmap({
             :rezId=>Rez.Drawables.BTC_png,
             :locY=>5
             
         });
         
         BTC_value = new WatchUi.Text({
-        	:text=>eth_balance,
-        	:color=>Graphics.COLOR_BLACK,
-        	:font=>Graphics.FONT_SMALL,
-        	:locX=>72,
-		    :locY=>5
+            :text=>BTC_value,
+            :color=>Graphics.COLOR_BLACK,
+            :font=>Graphics.FONT_SMALL,
+            :locX=>72,
+            :locY=>5
         });
-		
-		ETH_name = new WatchUi.Text({
-		    :text=>ETH_name,
-		    :color=>Graphics.COLOR_BLACK,
-		    :backgroundColor=>Graphics.COLOR_WHITE,
-		    :font=>Graphics.FONT_SMALL,
-		    :justification=>Graphics.TEXT_JUSTIFY_LEFT,
-		    :locX=>30,
-		    :locY=>37
-		});
-		
-		ETH_png = new WatchUi.Bitmap({
+        
+        ETH_name = new WatchUi.Text({
+            :text=>ETH_name,
+            :color=>Graphics.COLOR_BLACK,
+            :backgroundColor=>Graphics.COLOR_WHITE,
+            :font=>Graphics.FONT_SMALL,
+            :justification=>Graphics.TEXT_JUSTIFY_LEFT,
+            :locX=>30,
+            :locY=>37
+        });
+        
+        ETH_png = new WatchUi.Bitmap({
             :rezId=>Rez.Drawables.ETH_png,
             :locY=>37 
             
         });
         
         ETH_value = new WatchUi.Text({
-        	:text=>eth_balance,
-        	:color=>Graphics.COLOR_BLACK,
-        	:font=>Graphics.FONT_SMALL,
-        	:locX=>72,
-		    :locY=>37
+            :text=>eth_balance,
+            :color=>Graphics.COLOR_BLACK,
+            :font=>Graphics.FONT_SMALL,
+            :locX=>72,
+            :locY=>37
         });
         
         

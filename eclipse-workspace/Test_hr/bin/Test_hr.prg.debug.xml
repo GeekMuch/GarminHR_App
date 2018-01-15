@@ -19,120 +19,120 @@
 <entry filename="/home/void/eclipse-workspace/Test_hr/./source/Test_hrView.mc" lineNum="76" pc="268436003" symbol="onShow"/>
 <entry filename="/home/void/eclipse-workspace/Test_hr/./source/Test_hrView.mc" lineNum="86" pc="268436165" symbol="onShow"/>
 <entry filename="/home/void/eclipse-workspace/Test_hr/./source/Test_hrView.mc" lineNum="92" pc="268436246" symbol="onShow"/>
-<entry filename="/home/void/eclipse-workspace/Test_hr/./source/Test_hrApp.mc" lineNum="21" pc="268436369" symbol="TestEnd"/>
-<entry filename="/home/void/eclipse-workspace/Test_hr/./source/Test_hrApp.mc" lineNum="24" pc="268436373" symbol="TestEnd"/>
-<entry filename="/home/void/eclipse-workspace/Test_hr/./source/Test_hrApp.mc" lineNum="34" pc="268436405" symbol="initialize"/>
-<entry filename="/home/void/eclipse-workspace/Test_hr/./source/Test_hrApp.mc" lineNum="35" pc="268436409" symbol="initialize"/>
-<entry filename="/home/void/eclipse-workspace/Test_hr/./source/Test_hrApp.mc" lineNum="40" pc="268436428" symbol="onStart"/>
-<entry filename="/home/void/eclipse-workspace/Test_hr/./source/Test_hrApp.mc" lineNum="41" pc="268436432" symbol="onStart"/>
-<entry filename="/home/void/eclipse-workspace/Test_hr/./source/Test_hrApp.mc" lineNum="47" pc="268436445" symbol="onStop"/>
-<entry filename="/home/void/eclipse-workspace/Test_hr/./source/Test_hrApp.mc" lineNum="53" pc="268436450" symbol="onMenu"/>
-<entry filename="/home/void/eclipse-workspace/Test_hr/./source/Test_hrApp.mc" lineNum="58" pc="268436455" symbol="getInitialView"/>
-<entry filename="/home/void/eclipse-workspace/Test_hr/./source/Test_hrApp.mc" lineNum="59" pc="268436459" symbol="getInitialView"/>
-<entry filename="/home/void/eclipse-workspace/Test_hr/./source/Test_hrApp.mc" lineNum="64" pc="268436502" symbol="onReceive"/>
-<entry filename="/home/void/eclipse-workspace/Test_hr/./source/Test_hrApp.mc" lineNum="65" pc="268436506" symbol="onReceive"/>
-<entry filename="/home/void/eclipse-workspace/Test_hr/./source/Test_hrApp.mc" lineNum="66" pc="268436605" symbol="onReceive"/>
-<entry filename="/home/void/eclipse-workspace/Test_hr/./source/Test_hrApp.mc" lineNum="67" pc="268436651" symbol="onReceive"/>
-<entry filename="/home/void/eclipse-workspace/Test_hr/./source/Test_hrApp.mc" lineNum="68" pc="268436687" symbol="onReceive"/>
-<entry filename="/home/void/eclipse-workspace/Test_hr/./source/Test_hrApp.mc" lineNum="69" pc="268436706" symbol="onReceive"/>
-<entry filename="/home/void/eclipse-workspace/Test_hr/./source/Test_hrApp.mc" lineNum="74" pc="268436719" symbol="checkB"/>
-<entry filename="/home/void/eclipse-workspace/Test_hr/./source/Test_hrApp.mc" lineNum="75" pc="268436723" symbol="checkB"/>
-<entry filename="/home/void/eclipse-workspace/Test_hr/./source/Test_hrApp.mc" lineNum="77" pc="268436740" symbol="checkB"/>
-<entry filename="/home/void/eclipse-workspace/Test_hr/./source/Test_hrApp.mc" lineNum="78" pc="268436776" symbol="checkB"/>
-<entry filename="/home/void/eclipse-workspace/Test_hr/./source/Test_hrApp.mc" lineNum="82" pc="268436792" symbol="printB"/>
-<entry filename="/home/void/eclipse-workspace/Test_hr/./source/Test_hrApp.mc" lineNum="83" pc="268436796" symbol="printB"/>
-<entry filename="/home/void/eclipse-workspace/Test_hr/./source/Test_hrApp.mc" lineNum="84" pc="268436832" symbol="printB"/>
-<entry filename="/home/void/eclipse-workspace/Test_hr/./source/Test_hrApp.mc" lineNum="87" pc="268436869" symbol="printData"/>
-<entry filename="/home/void/eclipse-workspace/Test_hr/./source/Test_hrApp.mc" lineNum="95" pc="268436874" symbol="whileUrlSizeMakeRequest"/>
-<entry filename="/home/void/eclipse-workspace/Test_hr/./source/Test_hrApp.mc" lineNum="96" pc="268436878" symbol="whileUrlSizeMakeRequest"/>
-<entry filename="/home/void/eclipse-workspace/Test_hr/./source/Test_hrApp.mc" lineNum="97" pc="268436908" symbol="whileUrlSizeMakeRequest"/>
-<entry filename="/home/void/eclipse-workspace/Test_hr/./source/Test_hrApp.mc" lineNum="98" pc="268436921" symbol="whileUrlSizeMakeRequest"/>
-<entry filename="/home/void/eclipse-workspace/Test_hr/./source/Test_hrApp.mc" lineNum="99" pc="268436924" symbol="whileUrlSizeMakeRequest"/>
-<entry filename="/home/void/eclipse-workspace/Test_hr/./source/Test_hrApp.mc" lineNum="104" pc="268437006" symbol="whileUrlSizeMakeRequest"/>
-<entry filename="/home/void/eclipse-workspace/Test_hr/./source/Test_hrApp.mc" lineNum="107" pc="268437024" symbol="whileUrlSizeMakeRequest"/>
-<entry filename="Rez" lineNum="20" pc="268437062" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="24" pc="268437074" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="25" pc="268437217" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="26" pc="268437242" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="27" pc="268437294" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="30" pc="268437340" symbol="MainLayout"/>
+<entry filename="/home/void/eclipse-workspace/Test_hr/./source/Test_hrApp.mc" lineNum="26" pc="268436369" symbol="initialize"/>
+<entry filename="/home/void/eclipse-workspace/Test_hr/./source/Test_hrApp.mc" lineNum="27" pc="268436373" symbol="initialize"/>
+<entry filename="/home/void/eclipse-workspace/Test_hr/./source/Test_hrApp.mc" lineNum="32" pc="268436392" symbol="onStart"/>
+<entry filename="/home/void/eclipse-workspace/Test_hr/./source/Test_hrApp.mc" lineNum="33" pc="268436396" symbol="onStart"/>
+<entry filename="/home/void/eclipse-workspace/Test_hr/./source/Test_hrApp.mc" lineNum="39" pc="268436409" symbol="onStop"/>
+<entry filename="/home/void/eclipse-workspace/Test_hr/./source/Test_hrApp.mc" lineNum="45" pc="268436414" symbol="onMenu"/>
+<entry filename="/home/void/eclipse-workspace/Test_hr/./source/Test_hrApp.mc" lineNum="50" pc="268436419" symbol="getInitialView"/>
+<entry filename="/home/void/eclipse-workspace/Test_hr/./source/Test_hrApp.mc" lineNum="51" pc="268436423" symbol="getInitialView"/>
+<entry filename="/home/void/eclipse-workspace/Test_hr/./source/Test_hrApp.mc" lineNum="56" pc="268436466" symbol="onReceive"/>
+<entry filename="/home/void/eclipse-workspace/Test_hr/./source/Test_hrApp.mc" lineNum="57" pc="268436470" symbol="onReceive"/>
+<entry filename="/home/void/eclipse-workspace/Test_hr/./source/Test_hrApp.mc" lineNum="58" pc="268436569" symbol="onReceive"/>
+<entry filename="/home/void/eclipse-workspace/Test_hr/./source/Test_hrApp.mc" lineNum="59" pc="268436615" symbol="onReceive"/>
+<entry filename="/home/void/eclipse-workspace/Test_hr/./source/Test_hrApp.mc" lineNum="60" pc="268436655" symbol="onReceive"/>
+<entry filename="/home/void/eclipse-workspace/Test_hr/./source/Test_hrApp.mc" lineNum="61" pc="268436691" symbol="onReceive"/>
+<entry filename="/home/void/eclipse-workspace/Test_hr/./source/Test_hrApp.mc" lineNum="62" pc="268436710" symbol="onReceive"/>
+<entry filename="/home/void/eclipse-workspace/Test_hr/./source/Test_hrApp.mc" lineNum="67" pc="268436723" symbol="PrintBalance"/>
+<entry filename="/home/void/eclipse-workspace/Test_hr/./source/Test_hrApp.mc" lineNum="68" pc="268436727" symbol="PrintBalance"/>
+<entry filename="/home/void/eclipse-workspace/Test_hr/./source/Test_hrApp.mc" lineNum="70" pc="268436744" symbol="PrintBalance"/>
+<entry filename="/home/void/eclipse-workspace/Test_hr/./source/Test_hrApp.mc" lineNum="71" pc="268436780" symbol="PrintBalance"/>
+<entry filename="/home/void/eclipse-workspace/Test_hr/./source/Test_hrApp.mc" lineNum="72" pc="268436816" symbol="PrintBalance"/>
+<entry filename="/home/void/eclipse-workspace/Test_hr/./source/Test_hrApp.mc" lineNum="76" pc="268436832" symbol="setViewData"/>
+<entry filename="/home/void/eclipse-workspace/Test_hr/./source/Test_hrApp.mc" lineNum="77" pc="268436836" symbol="setViewData"/>
+<entry filename="/home/void/eclipse-workspace/Test_hr/./source/Test_hrApp.mc" lineNum="78" pc="268436858" symbol="setViewData"/>
+<entry filename="/home/void/eclipse-workspace/Test_hr/./source/Test_hrApp.mc" lineNum="79" pc="268436909" symbol="setViewData"/>
+<entry filename="/home/void/eclipse-workspace/Test_hr/./source/Test_hrApp.mc" lineNum="82" pc="268436946" symbol="printData"/>
+<entry filename="/home/void/eclipse-workspace/Test_hr/./source/Test_hrApp.mc" lineNum="90" pc="268436951" symbol="whileUrlSizeMakeRequest"/>
+<entry filename="/home/void/eclipse-workspace/Test_hr/./source/Test_hrApp.mc" lineNum="91" pc="268436955" symbol="whileUrlSizeMakeRequest"/>
+<entry filename="/home/void/eclipse-workspace/Test_hr/./source/Test_hrApp.mc" lineNum="92" pc="268436985" symbol="whileUrlSizeMakeRequest"/>
+<entry filename="/home/void/eclipse-workspace/Test_hr/./source/Test_hrApp.mc" lineNum="93" pc="268436998" symbol="whileUrlSizeMakeRequest"/>
+<entry filename="/home/void/eclipse-workspace/Test_hr/./source/Test_hrApp.mc" lineNum="94" pc="268437001" symbol="whileUrlSizeMakeRequest"/>
+<entry filename="/home/void/eclipse-workspace/Test_hr/./source/Test_hrApp.mc" lineNum="99" pc="268437083" symbol="whileUrlSizeMakeRequest"/>
+<entry filename="/home/void/eclipse-workspace/Test_hr/./source/Test_hrApp.mc" lineNum="102" pc="268437101" symbol="whileUrlSizeMakeRequest"/>
+<entry filename="Rez" lineNum="20" pc="268437139" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="24" pc="268437151" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="25" pc="268437294" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="26" pc="268437319" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="27" pc="268437371" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="30" pc="268437417" symbol="MainLayout"/>
 </pcToLineNum>
 <symbolTable>
 <entry id="8388644" module="true" symbol="System"/>
-<entry field="true" id="21" symbol="BTC_png"/>
+<entry field="true" id="22" symbol="BTC_png"/>
 <entry id="8389124" method="true" symbol="onUpdate"/>
 <entry id="8389349" symbol="justification"/>
 <entry id="8388637" module="true" symbol="Communications"/>
-<entry field="true" id="12" symbol="eth_balance"/>
-<entry id="30" method="true" symbol="TestEnd"/>
+<entry field="true" id="13" symbol="eth_balance"/>
 <entry field="true" id="8388611" module="true" symbol="Toybox"/>
 <entry id="9" object="true" symbol="Test_hrView"/>
+<entry field="true" id="12" symbol="balance_name"/>
 <entry id="8388770" module="true" object="true" symbol="Strings"/>
-<entry field="true" id="14" symbol="num2"/>
+<entry field="true" id="15" symbol="num2"/>
 <entry id="8389280" method="true" symbol="getInitialView"/>
-<entry id="28" method="true" symbol="printData"/>
+<entry id="29" method="true" symbol="printData"/>
 <entry id="8388639" module="true" symbol="Graphics"/>
-<entry id="23" method="true" symbol="MainLayout"/>
+<entry id="24" method="true" symbol="MainLayout"/>
 <entry id="8388769" module="true" object="true" symbol="Rez"/>
 <entry id="8389123" method="true" symbol="onShow"/>
-<entry field="true" id="13" symbol="num"/>
+<entry field="true" id="14" symbol="num"/>
 <entry id="8388702" method="true" symbol="initialize"/>
-<entry id="17" object="true" symbol="Test_hrApp"/>
-<entry field="true" id="24" symbol="AppName"/>
+<entry id="18" object="true" symbol="Test_hrApp"/>
+<entry field="true" id="25" symbol="AppName"/>
 <entry id="8389594" symbol="headers"/>
+<entry id="27" method="true" symbol="PrintBalance"/>
 <entry id="8389080" method="true" symbol="onMenu"/>
-<entry field="true" id="15" symbol="recv"/>
+<entry field="true" id="16" symbol="recv"/>
 <entry id="8388641" module="true" symbol="Math"/>
-<entry field="true" id="22" symbol="LauncherIcon"/>
+<entry field="true" id="23" symbol="LauncherIcon"/>
 <entry id="8388646" module="true" object="true" symbol="Timer"/>
-<entry field="true" id="34" symbol="ETH_value"/>
+<entry field="true" id="33" symbol="ETH_value"/>
 <entry id="8388786" method="true" symbol="method"/>
+<entry id="28" method="true" symbol="setViewData"/>
 <entry id="8388648" module="true" symbol="WatchUi"/>
 <entry id="8389281" method="true" symbol="onStop"/>
 <entry field="true" id="8389065" symbol="locY"/>
 <entry field="true" id="8389064" symbol="locX"/>
 <entry id="8388771" module="true" object="true" symbol="Drawables"/>
-<entry field="true" id="33" symbol="BTC_value"/>
-<entry id="16" object="true" symbol="RecvInformation"/>
+<entry field="true" id="17" symbol="BTC_value"/>
 <entry id="8389279" method="true" symbol="onStart"/>
 <entry field="true" id="10" symbol="urlArray"/>
 <entry id="8389348" symbol="font"/>
-<entry id="27" method="true" symbol="printB"/>
-<entry id="29" method="true" symbol="whileUrlSizeMakeRequest"/>
+<entry id="30" method="true" symbol="whileUrlSizeMakeRequest"/>
 <entry id="8389743" symbol="backgroundColor"/>
 <entry id="8389347" symbol="color"/>
-<entry id="26" method="true" symbol="checkB"/>
 <entry field="true" id="31" symbol="BTC_name"/>
-<entry field="true" id="20" symbol="ETH_png"/>
+<entry field="true" id="21" symbol="ETH_png"/>
 <entry field="true" id="11" symbol="balance"/>
 <entry field="true" id="32" symbol="ETH_name"/>
-<entry id="19" module="true" symbol="Layouts"/>
+<entry id="20" module="true" symbol="Layouts"/>
 <entry id="8389345" symbol="rezId"/>
 <entry id="8390088" module="true" object="true" symbol="JsonData"/>
 <entry id="8389844" symbol="responseType"/>
 <entry id="8389346" symbol="text"/>
 <entry field="true" id="8389063" symbol="identifier"/>
-<entry field="true" id="35" symbol="_message"/>
-<entry id="18" module="true" symbol="Menus"/>
-<entry id="25" method="true" symbol="onReceive"/>
+<entry field="true" id="34" symbol="_message"/>
+<entry id="19" module="true" symbol="Menus"/>
+<entry id="26" method="true" symbol="onReceive"/>
 <entry id="8388772" module="true" object="true" symbol="Fonts"/>
 </symbolTable>
 <localVars>
 <entry endPc="268435509" name="message" stackId="1" startPc="268435456"/>
 <entry endPc="268435634" name="dc" stackId="1" startPc="268435509"/>
-<entry endPc="268436445" name="state" stackId="1" startPc="268436428"/>
-<entry endPc="268436450" name="state" stackId="1" startPc="268436445"/>
-<entry endPc="268436719" name="responseCode" stackId="1" startPc="268436502"/>
-<entry endPc="268436719" name="data" stackId="2" startPc="268436502"/>
-<entry endPc="268436874" name="data" stackId="1" startPc="268436869"/>
-<entry endPc="268437048" name="options" stackId="4" startPc="268436908"/>
-<entry endPc="268437048" name="url" stackId="2" startPc="268436908"/>
-<entry endPc="268437048" name="responseCallback" stackId="5" startPc="268436908"/>
-<entry endPc="268437048" name="params" stackId="3" startPc="268436908"/>
-<entry endPc="268437061" name="i" stackId="1" startPc="268436908"/>
-<entry endPc="268437357" name="rez_cmp_local_bitmap_message_fontHeight" stackId="3" startPc="268437074"/>
-<entry endPc="268437357" name="rez_cmp_local_bitmap_message" stackId="2" startPc="268437074"/>
-<entry endPc="268437358" name="dc" stackId="1" startPc="268437062"/>
+<entry endPc="268436409" name="state" stackId="1" startPc="268436392"/>
+<entry endPc="268436414" name="state" stackId="1" startPc="268436409"/>
+<entry endPc="268436723" name="responseCode" stackId="1" startPc="268436466"/>
+<entry endPc="268436723" name="data" stackId="2" startPc="268436466"/>
+<entry endPc="268436951" name="data" stackId="1" startPc="268436946"/>
+<entry endPc="268437125" name="options" stackId="4" startPc="268436985"/>
+<entry endPc="268437125" name="url" stackId="2" startPc="268436985"/>
+<entry endPc="268437125" name="responseCallback" stackId="5" startPc="268436985"/>
+<entry endPc="268437125" name="params" stackId="3" startPc="268436985"/>
+<entry endPc="268437138" name="i" stackId="1" startPc="268436985"/>
+<entry endPc="268437434" name="rez_cmp_local_bitmap_message_fontHeight" stackId="3" startPc="268437151"/>
+<entry endPc="268437434" name="rez_cmp_local_bitmap_message" stackId="2" startPc="268437151"/>
+<entry endPc="268437435" name="dc" stackId="1" startPc="268437139"/>
 </localVars>
 <annotations/>
 <functions>
@@ -145,9 +145,6 @@
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="onShow" parent="Test_hrView">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="TestEnd" parent="RecvInformation">
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="initialize" parent="Test_hrApp">
@@ -172,10 +169,10 @@
 <param id="data"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" name="checkB" parent="Test_hrApp">
+<functionEntry accessMode="public" name="PrintBalance" parent="Test_hrApp">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" name="printB" parent="Test_hrApp">
+<functionEntry accessMode="public" name="setViewData" parent="Test_hrApp">
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="printData" parent="Test_hrApp">
@@ -192,15 +189,14 @@
 </functions>
 <dataEntryOffsetMappings>
 <dataEntry offset="87" parentId="" symbolId="globals" type="module"/>
-<dataEntry offset="222" parentId="globals" symbolId="Rez" type="module"/>
-<dataEntry offset="301" parentId="Rez" symbolId="Drawables" type="module"/>
-<dataEntry offset="356" parentId="Rez" symbolId="Menus" type="module"/>
-<dataEntry offset="387" parentId="Rez" symbolId="Fonts" type="module"/>
-<dataEntry offset="418" parentId="Rez" symbolId="JsonData" type="module"/>
-<dataEntry offset="449" parentId="Rez" symbolId="Layouts" type="module"/>
-<dataEntry offset="488" parentId="Rez" symbolId="Strings" type="module"/>
-<dataEntry offset="527" parentId="globals" symbolId="Test_hrApp" type="class"/>
-<dataEntry offset="646" parentId="globals" symbolId="RecvInformation" type="class"/>
-<dataEntry offset="701" parentId="globals" symbolId="Test_hrView" type="class"/>
+<dataEntry offset="230" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry offset="309" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry offset="364" parentId="Rez" symbolId="Menus" type="module"/>
+<dataEntry offset="395" parentId="Rez" symbolId="Fonts" type="module"/>
+<dataEntry offset="426" parentId="Rez" symbolId="JsonData" type="module"/>
+<dataEntry offset="457" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry offset="496" parentId="Rez" symbolId="Strings" type="module"/>
+<dataEntry offset="535" parentId="globals" symbolId="Test_hrApp" type="class"/>
+<dataEntry offset="654" parentId="globals" symbolId="Test_hrView" type="class"/>
 </dataEntryOffsetMappings>
 </debugInfo>
