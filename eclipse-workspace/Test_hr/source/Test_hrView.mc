@@ -3,13 +3,18 @@ using Toybox.WatchUi;
 using Toybox.Math;
 
 class Test_hrView extends WatchUi.View {
-
+	// Coin Names
     var BTC_name = "BTC = ";
     var ETH_name = "ETH = ";
+    var LTC_name = "LTC = ";
+    // Coin PNG 
     var BTC_png;
     var ETH_png;
+    var LTC_png;
+    // Coin values
     var BTC_value;
     var ETH_value;
+    var LTC_value;
 
     var _message;
 
@@ -32,11 +37,15 @@ class Test_hrView extends WatchUi.View {
 
         BTC_name.draw(dc);
         ETH_name.draw(dc);
+        LTC_name.draw(dc);
+        
         ETH_png.draw(dc);
         BTC_png.draw(dc);
+        LTC_png.draw(dc);
+        
         BTC_value.draw(dc);
         ETH_value.draw(dc);
-
+		LTC_value.draw(dc);
         //View.onUpdate(dc);
     }
 
@@ -47,7 +56,9 @@ class Test_hrView extends WatchUi.View {
     }*/
     
     function onShow() {
-    
+    	
+    	// Bitcoin Watch layout
+    	
         BTC_name = new WatchUi.Text({
             :text=>BTC_name,
             :color=>Graphics.COLOR_BLACK,
@@ -66,12 +77,14 @@ class Test_hrView extends WatchUi.View {
         });
         
         BTC_value = new WatchUi.Text({
-            :text=>BTC_value,
+            :text=>BTC_v,
             :color=>Graphics.COLOR_BLACK,
             :font=>Graphics.FONT_SMALL,
             :locX=>72,
             :locY=>5
         });
+        
+        // Ethereum Watch layout
         
         ETH_name = new WatchUi.Text({
             :text=>ETH_name,
@@ -90,11 +103,38 @@ class Test_hrView extends WatchUi.View {
         });
         
         ETH_value = new WatchUi.Text({
-            :text=>eth_balance,
+            :text=>ETH_v,
             :color=>Graphics.COLOR_BLACK,
             :font=>Graphics.FONT_SMALL,
             :locX=>72,
             :locY=>37
+        });
+        
+        
+        // Litecoin Watch layout
+        
+        LTC_name = new WatchUi.Text({
+            :text=>LTC_name,
+            :color=>Graphics.COLOR_BLACK,
+            :backgroundColor=>Graphics.COLOR_WHITE,
+            :font=>Graphics.FONT_SMALL,
+            :justification=>Graphics.TEXT_JUSTIFY_LEFT,
+            :locX=>30,
+            :locY=>69
+        });
+        
+        LTC_png = new WatchUi.Bitmap({
+            :rezId=>Rez.Drawables.LTC_png,
+            :locY=>69 
+            
+        });
+        
+        LTC_value = new WatchUi.Text({
+            :text=>LTC_v,
+            :color=>Graphics.COLOR_BLACK,
+            :font=>Graphics.FONT_SMALL,
+            :locX=>72,
+            :locY=>69
         });
         
         

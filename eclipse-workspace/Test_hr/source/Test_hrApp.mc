@@ -8,7 +8,7 @@ using Toybox.Timer;
     // Get coin balace through etherscan API
 //const URL_ETH = "https://api.etherscan.io/api?module=account&action=balancemulti&address=0xAB8d28F89Fd9500540F841474c5000eb8eCBE80F&tag=latest&apikey=5EHZ8GQET5EPKA66EZQ6ANTIYH9SU14SUW/";
 
-var  urlArray = ["https://api.coinmarketcap.com/v1/ticker/bitcoin/","https://api.coinmarketcap.com/v1/ticker/ethereum/"];
+var  urlArray = ["https://api.coinmarketcap.com/v1/ticker/bitcoin/","https://api.coinmarketcap.com/v1/ticker/ethereum/","https://api.coinmarketcap.com/v1/ticker/litecoin/"];
 
 var balance = [];
 var balance_name = [];
@@ -16,7 +16,9 @@ var eth_balance;
 var num;
 var num2;
 var recv = 1;
-var BTC_value;
+var BTC_v;
+var ETH_v;
+var LTC_v;
 
 
  //Main SuperClass
@@ -65,7 +67,7 @@ class Test_hrApp extends App.AppBase {
     }
   
     function PrintBalance(){
-        if(recv == 3){
+        if(recv == 4){
             
             System.println("Balances " + balance + "\n");
             System.println("ID " + balance_name + "\n");
@@ -74,8 +76,10 @@ class Test_hrApp extends App.AppBase {
     }
     
     function setViewData(){
-        BTC_value = balance[0];
-        System.println("Balance BTC " + balance[0] + " BTC_value: " + BTC_value);
+        BTC_v = balance[0];
+        ETH_v = balance[1];
+        LTC_v = balance[2];
+        System.println("Balance BTC " + balance[0] + " BTC_value: " + BTC_v);
         System.println("Balance ETH " + balance[1]);
     }
         
